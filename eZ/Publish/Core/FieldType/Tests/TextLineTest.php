@@ -626,8 +626,8 @@ class TextLineTest extends FieldTypeTest
                 new TextLineValue('aaa'),
                 array(
                     new ValidationError(
-                        'The string can not be shorter than %size% character.',
-                        'The string can not be shorter than %size% characters.',
+                        'The string cannot be shorter than %size% character.',
+                        'The string cannot be shorter than %size% characters.',
                         array(
                             '%size%' => 5,
                         ),
@@ -676,8 +676,8 @@ class TextLineTest extends FieldTypeTest
                         'text'
                     ),
                     new ValidationError(
-                        'The string can not be shorter than %size% character.',
-                        'The string can not be shorter than %size% characters.',
+                        'The string cannot be shorter than %size% character.',
+                        'The string cannot be shorter than %size% characters.',
                         array(
                             '%size%' => 10,
                         ),

@@ -212,14 +212,14 @@ class StringLengthValidatorTest extends PHPUnit_Framework_TestCase
         return array(
             array(
                 '',
-                'The string can not be shorter than %size% character.',
-                'The string can not be shorter than %size% characters.',
+                'The string cannot be shorter than %size% character.',
+                'The string cannot be shorter than %size% characters.',
                 array('%size%' => $this->getMinStringLength()),
             ),
             array(
                 'Hi!',
-                'The string can not be shorter than %size% character.',
-                'The string can not be shorter than %size% characters.',
+                'The string cannot be shorter than %size% character.',
+                'The string cannot be shorter than %size% characters.',
                 array('%size%' => $this->getMinStringLength()),
             ),
             array(

@@ -11,3 +11,4 @@ composer.phar
 /vendor/
 var/
 .php_cs.cache
+.idea
